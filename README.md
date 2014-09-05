@@ -1,5 +1,30 @@
 # AndEngine
 
+## Donations
+While developing AndEngine was a lot of fun, it also also consumed many(!) months of my life. It actually continues to cost me a significant amount of money to host the AndEngine forums.
+
+If you made profit using your game and can afford to spare a fraction of it to the developer of the game engine you used, I would be very grateful! =)
+
+### Bitcoin
+The easiest way of donating is via Bitcoin to the AndEngine funds wallet address:
+
+![Bitcoin](http://www.andengine.org/donate/bitcoin_16x16.png "Donate via Bitcoin")
+Bitcoin Wallet Address: ``1run6zViD16j2rP9evpayu8FqQ6mcRDqi`` ![Bitcoin Wallet](http://www.andengine.org/donate/bitcoin_wallet.png "Bitcoin Wallet")
+
+### Tip4Commit (Bitcoin)
+Tip the author (not the project itself) of the next commit to AndEngine:
+
+[![Bitcoin top for next commit](http://tip4commit.com/projects/192.svg)](http://tip4commit.com/projects/192)
+
+### PayPal
+Donation Email: donate@andengine.org
+
+
+Thank you!
+
+/Nicolas Gramlich
+
+
 ## Building
 
 ### Eclipse
@@ -18,11 +43,16 @@ public final class BuildConfig {
 
 
 ## Branches
-
- * GLES2: 'GLES2'
-    * Active development. 
+ * OpenGL ES 2:
     * Support: [> 93% of all Android devices ([Apr. 2012](http://developer.android.com/resources/dashboard/platform-versions.html))
- * GLES1: 'master'
+    * Branch: [`GLES2-AnchorCenter`][URI_AndEngine_GLES2_AnchorCenter]
+      * Active development. 
+      * The leatest and greatest.
+      * More [`cocos2d`][URI_cocos2d]-ish (Coordinate-System in the lower left corner, powerful AnchorCenter system.)
+    * Branch: [`GLES2`][URI_AndEngine_GLES2]
+      * Not in active development.
+ * OpenGL ES 1: 
+    * Branch: [`master`][URI_AndEngine_master]
     * Not in active development.
     * Support: > 99.0% of all Android devices ([Apr. 2012](http://developer.android.com/resources/dashboard/platform-versions.html))
 
@@ -51,6 +81,10 @@ public final class BuildConfig {
  * [`AndEngineTMXTiledMapExtension`][URI_AndEngineTMXTiledMapExtension] (Merged into the 'GLES1' branch.)
 
 
+[URI_AndEngine_GLES2_AnchorCenter]: https://github.com/nicolasgramlich/AndEngine/tree/GLES2-AnchorCenter
+[URI_AndEngine_GLES2]: https://github.com/nicolasgramlich/AndEngine/tree/GLES2
+[URI_AndEngine_master]: https://github.com/nicolasgramlich/AndEngine/tree/master
+[URI_cocos2d]: https://github.com/cocos2d
 [URI_AndEngineExamples]: https://github.com/nicolasgramlich/AndEngineExamples
 [URI_AndEngineRobotiumExtensionExample]: https://github.com/nicolasgramlich/AndEngineRobotiumExtensionExample
 [URI_AndEngineTest]: https://github.com/nicolasgramlich/AndEngineTest
